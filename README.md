@@ -2,6 +2,9 @@
 
 A simple and efficient web application to generate QR codes from text or URLs. Built with **Python (Flask)** and **qrcode library**.
 
+📸 Screenshots:
+<img src="./assets/img.png" alt="Alt text" height = "700" width="700"/>
+
 ---
 
 ## 🚀 Features
@@ -35,6 +38,3 @@ qrcode-generator/
    ```bash
    git clone https://github.com/yourusername/qrcode-generator.git
    cd qrcode-generator
-
-📸 Screenshots:
-<img src="./assets/img.png" alt="Alt text" height = "700" width="700"/>
