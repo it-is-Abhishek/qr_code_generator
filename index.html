@@ -11,10 +11,14 @@
 <body>
 
     <h1>QR Code Generator</h1>
-    <input id="text" type="text" placeholder="Enter text">
-    <button onclick="generateQR()">Generate</button>
-    <br><br>
-    <img id="qrImage" />
+    <div class="input-group">
+        <input id="text" type="text" placeholder="Enter text">
+        <button onclick="generateQR()">Generate</button>
+    </div>
+    <div class="qr-container">
+        <img id="qrImage" />
+        <p class="scan-text">SCAN ME</p>
+    </div>
     
 
     <script src="index.js"></script>
